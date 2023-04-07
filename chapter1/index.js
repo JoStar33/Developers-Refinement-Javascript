@@ -20,7 +20,7 @@ const object = {
 const iterateObject = object[Symbol.iterator]();
 
 TypeError: object[Symbol.iterator] is not a function
-    at Object.<anonymous> (c:\Users\INSoft\Desktop\workSpace\developers-refinement-javascript\chapter1\index.js:18:46)
+    at Object.<anonymous> (workSpace\developers-refinement-javascript\chapter1\index.js:18:46)
     at Module._compile (node:internal/modules/cjs/loader:1126:14)
     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1180:10)
     at Module.load (node:internal/modules/cjs/loader:1004:32)
