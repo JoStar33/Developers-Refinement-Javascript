@@ -26,6 +26,9 @@ const gen2Function = gen2();
 { value: 'j', done: false }
 { value: 'a', done: false }
 { value: 'v', done: false }
+
+
+Generator<"hello" | "j" | "a" | "v" | "s" | "c" | "r" | "i" | "p" | "t" | "~", void, unknown>
 */
 console.log(gen2Function.next());
 console.log(gen2Function.next());
