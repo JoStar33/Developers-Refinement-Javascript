@@ -13,3 +13,21 @@ const object = {};
 const copyObject = object;
 console.log(object === copyObject);
 //그러면 결과는 아무 이상없이 true!
+
+//하나만 더보자.
+const arr1 = [];
+const arr2 = [];
+//false
+console.log(arr1 === arr2);
+
+//그럼 하나만 더
+const newFun = () => {
+  console.log("hi");
+}
+const newFun2 = () => {
+  console.log("hi");
+}
+//false
+console.log(newFun === newFun2);
+
+//배열과 함수는 근본적으로 객체이기 때문에 이런일이 발생한거지!
