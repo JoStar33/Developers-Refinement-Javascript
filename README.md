@@ -1,4 +1,6 @@
 # 개발자의 섬세한 제련질 <자바스크립트>
+![the-smurfs-blacksmith-smurf](https://user-images.githubusercontent.com/52379503/230861099-8950c411-3c85-4f94-9307-96784aa90ecd.gif)
+
 
 돌고돌아 결국 오게되는건 기본기 공부.
 
