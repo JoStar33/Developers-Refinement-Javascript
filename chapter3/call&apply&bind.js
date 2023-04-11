@@ -4,6 +4,8 @@ function bindFunction() {
 /*
 [ 1, 2, 3 ]
 [Number: 1]
+배어리콜~
+배열 어플라이 리스트 콜
 */
 console.log(bindFunction.apply([1, 2, 3]));
 console.log(bindFunction.call(1, 2, 3));
