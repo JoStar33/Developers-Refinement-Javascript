@@ -34,3 +34,18 @@ console.log(gen2Function.next());
 console.log(gen2Function.next());
 console.log(gen2Function.next());
 console.log(gen2Function.next());
+
+
+//이렇게 고유의 키값을 만드는 제너레이터도 써볼 수 있겠다.
+function* makeUniqueId() {
+  let id = 0;
+  while (true) {
+    yield id++;
+  }
+};
+
+const uniqueGenerator = makeUniqueId(); 
+
+console.log(uniqueGenerator.next());
+console.log(uniqueGenerator.next());
+console.log(uniqueGenerator.next());
