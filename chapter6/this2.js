@@ -4,16 +4,16 @@ class Student {
   constructor(name, phoneNumber) {
     this.phoneNumber = phoneNumber;
     this.name = name;
-  };
+  }
   showThis() {
-    setTimeout(function() {
-      console.log(this)
-    }, 0)
+    setTimeout(function () {
+      console.log(this);
+    }, 0);
   }
   showThis2() {
     setTimeout(() => {
-      console.log(this)
-    }, 0)
+      console.log(this);
+    }, 0);
   }
 }
 
