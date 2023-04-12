@@ -23,6 +23,7 @@ const student = new Student("jojo", "010333333333");
 
 //전역 컨텍스트에서 this를 찍어보자. 여기서의 this는 뭘까?
 //{} 글로벌이 찍힌다.
+//Window {0: Window, window: Window, self: Window, document: document, name: '', location: Location, …}
 console.log(this);
 
 
