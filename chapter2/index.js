@@ -55,7 +55,6 @@ const testGenerator = generatorFunction2();
 
 /*
 아래와 같이, yield의 도달하기전까지의 콘솔을 찍는다.
-
     hoho
   { value: 1, done: false }
     yield2 start
