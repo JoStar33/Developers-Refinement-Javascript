@@ -67,7 +67,6 @@ console.log(stringObj.toString());
 
 
 
-
 //String.prototype.trim()
 //공백을 제거한다.
 const trimString = "yyyy yyy yy yy yy yyyy                "

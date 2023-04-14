@@ -79,6 +79,7 @@ const str7 = "opgfuifghjkfnf";
 
 
 
+
 //String.prototype.indexOf()
 //매개변수로 받은 문자가 문자열에 포함되어있다면 문자열의 몇번째에 포함되어있는지 확인하는 함수이며
 //포함되어있지 않다면 -1을 리턴한다.
@@ -89,6 +90,7 @@ const str8 = "oigyrebfguhdfndg";
 //console.log(str8.indexOf("ndg"));
 //-1
 //console.log(str8.indexOf("z"));
+
 
 
 
