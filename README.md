@@ -15,5 +15,5 @@
 - this란?✅
 - 스트링 프로토타입 함수들 DeepDive✅
 - 배열 프로토타입 함수들 DeepDive✅
-- 객체 프로토타입 함수들 DeepDive
+- 객체 함수들 DeepDive✅
 - ??와 || 활용해보기
